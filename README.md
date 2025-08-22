@@ -53,23 +53,6 @@ streamlit run App.py
 
 The application should now be open and running in your web browser.
 
-## ✅ To-Do
-
-- [ ] **Implement a Filter Bar**
-  - Add a dedicated filter section to allow users to refine their library view
-  - **Filter by Status:** Include buttons or a dropdown to filter by 'Completed', 'In Progress', or 'Plan to Watch'.
-  - **Filter by Rating:** Add a slider or input to filter media by a specified rating range (e.g., 4 stars and above).
-  - **Filter by Genre:** Create a multi-select box to let users filter by one or more genres.
-
-- [ ] **Expand Media Category Support with More APIs**
-  - Integrate additional APIs to allow searching for and adding different types of media beyond movies
-  - **Books:** Implement a client for the **Google Books API**
-  - **TV Shows:** Extend the `api_client` to use the `/search/tv` endpoint from TMDB
-  - **Video Games:** Implement a client for a video game API like **RAWG.io** or **IGDB**
-  - **Podcasts:** Investigate and implement a podcast API like **Listen Notes**
-
-- [ ] **Deploy Application as a Live Website**
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/shpiy/HoshiTrack/issues).
